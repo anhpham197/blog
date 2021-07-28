@@ -1,0 +1,47 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+.background-image {
+    background-image: url('https://cdn.pixabay.com/photo/2016/01/21/19/30/human-1154546_960_720.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 600px;
+}
+
+.font-logo {
+    font-family: 'Londrina Shadow', cursive;
+    letter-spacing: 0.5rem;
+}
+
+.font-marker {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.image-post {
+    background-image: url('https://cdn.pixabay.com/photo/2016/04/18/22/05/seashells-1337565_960_720.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.7;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.rainbow-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ml6 {
+    position: relative;
+}
+  
+.ml6 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
